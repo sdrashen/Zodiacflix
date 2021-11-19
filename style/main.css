@@ -1,6 +1,7 @@
 :root {
     --red: #E50914;
     --black: #141414;
+    --white: #ffffff;
 }
 
 * {
@@ -15,7 +16,7 @@
 body {
     background: var(--black);
     font-family: 'Times New Roman', Times, serif;
-    color: white;
+    color: var(--white);
 }
 
 
@@ -45,7 +46,7 @@ header nav a {
 }
 
 header nav a:hover {
-    color: #fff;
+    color: var(--white);
 }
 
 
@@ -81,7 +82,7 @@ header nav a:hover {
 .button {
     background-color: rgba(0, 0, 0, .50);
     border: none;
-    color: #fff;
+    color: var(--white);
     padding: 15px 30px;
     margin-right: 15px;
     font-size: 12px;
@@ -91,6 +92,6 @@ header nav a:hover {
 }
 
 .button:hover {
-    background-color: #fff;
-    color: #000;
+    background-color: var(--white);
+    color: var(--black);
 }

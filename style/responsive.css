@@ -1,0 +1,22 @@
+/*Media query allows you creates conditionals formations depending on the maximum/minimum size of the screen*/
+
+
+/*Aplying this media rule to the screen 'and' also when the
+screen is 700px of width */
+
+@media screen and (max-width:700px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .button {
+        margin-top: 5px;
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .description {
+        width: 50%;
+    }
+}

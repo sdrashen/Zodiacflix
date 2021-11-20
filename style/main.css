@@ -22,7 +22,13 @@ body {
 
 /*Type of "wrapper"class*/
 
-.container {}
+.container {
+    margin-left: 30px;
+}
+
+.zodiac-signs .container {
+    width: 70%;
+}
 
 header .container {
     display: flex;
@@ -98,4 +104,13 @@ header nav a:hover {
 
 .button i {
     margin-right: 8px;
+}
+
+
+/*IMAGES*/
+
+.zodiac-images {
+    height: 100%;
+    width: 100%;
+    display: block;
 }

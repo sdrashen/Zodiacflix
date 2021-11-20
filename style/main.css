@@ -95,3 +95,7 @@ header nav a:hover {
     background-color: var(--white);
     color: var(--black);
 }
+
+.button i {
+    margin-right: 8px;
+}

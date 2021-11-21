@@ -70,7 +70,7 @@ header nav a:hover {
 .zodiac-signs {
     font-size: 16px;
     /*By using two colors in the rgba the image gets a tiny slayer and it helps with the contrast improving the visibility*/
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%), url('../images/zodiac-signs.jpeg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%), url('../images/zodiac-sings.jpeg');
     height: 400px;
     background-size: cover;
     display: flex;

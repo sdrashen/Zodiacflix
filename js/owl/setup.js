@@ -4,7 +4,7 @@ $('.owl-carousel').owlCarousel({
     // If you set it to false, when it reaches the last image you will have to go back to see all of them again.
     loop: true,
     //Puts side margins between the div/images
-    margin: 10,
+    margin: 4,
     //The nav option reffers to those little round buttons. When set to false
     //you won't need to keep clicking on the to make the images move
     nav: false,

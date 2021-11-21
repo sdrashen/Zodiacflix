@@ -15,20 +15,12 @@
 
 body {
     background: var(--black);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color: var(--white);
 }
 
 
 /*Type of "wrapper"class*/
-
-.container {
-    margin-left: 30px;
-}
-
-.zodiac-signs .container {
-    width: 70%;
-}
 
 header .container {
     display: flex;
@@ -106,6 +98,14 @@ header nav a:hover {
     margin-right: 8px;
 }
 
+.container {
+    margin-left: 20px;
+}
+
+.zodiac-signs .container {
+    width: 70%;
+}
+
 
 /*IMAGES*/
 
@@ -113,8 +113,9 @@ header nav a:hover {
     height: 100%;
     width: 100%;
     display: block;
+    cursor: pointer;
 }
 
-.zodiac-images {
+.zodiac-carousel {
     margin-top: 5px;
 }

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style/main.css" />
     <!--Responsiveness-->
-    <link rel="stylesheet" href="style/responsive.css">
+    <link rel="stylesheet" href="style/responsive.css" />
     <!--owl carousel-->
     <link rel="stylesheet" href="style/owl/owl.carousel.min.css" />
     <link rel="stylesheet" href="style/owl/owl.theme.default.min.css" />
@@ -16,7 +16,7 @@
 
 <body>
     <header>
-        <header class="container">
+        <div class="container">
             <h2 class="logo">ZODIACFLIX</h2>
             <nav>
                 <a href="#">Signs</a>
@@ -25,80 +25,76 @@
                 <a href="#">Descendants</a>
                 <a href="#">Astral Map</a>
             </nav>
-            </div>
-        </header>
-        <main>
-            <div class="zodiac-signs">
-                <div class="container">
-                    <h3 class="title">SIGNS OF THE ZODIAC</h3>
-                    <p class="description">
-                        "In Western astrology, astrological signs are the twelve 30 degree sectors that make up Earth's 360 degree orbit around the Sun. Each sign was named after a constellation the sun annually moved through while crossing the sky. Various approaches to measuring
-                        and dividing the sky are currently used by differing systems of astrology, although the tradition of the Zodiac's names and symbols remain mostly consistent. "
-                    </p>
-                    <div class="buttons">
-                        <!--The "role"certifies that button role is to be a button so it won't risk rendering differently. -->
-                        <button role="button" class="button">
+        </div>
+    </header>
+    <main>
+        <div class="zodiac-signs">
+            <div class="container">
+                <h3 class="title">SIGNS OF THE ZODIAC</h3>
+                <p class="description">
+                    "In Western astrology, astrological signs are the twelve 30 degree sectors that make up Earth's 360 degree orbit around the Sun. Each sign was named after a constellation the sun annually moved through while crossing the sky. "
+                </p>
+                <div class="buttons">
+                    <!--The "role"certifies that button role is to be a button so it won't risk rendering differently. -->
+                    <button role="button" class="button">
               <i class="fas fa-sun"></i>
               ALL THE SIGNS
             </button>
-                        <button role="button" class="button">
+                    <button role="button" class="button">
               <i class="fas fa-sun"></i>
               YOUR ZODIAC SIGN
             </button>
-                    </div>
                 </div>
-            </div>
-        </main>
-        <div class="zodiac-carousel">
-            <div class="owl-carousel owl-theme">
-                <div class="item">
-                    <img src="images/aries.jpg" alt="" class="zodiac.images" />
-                </div>
-                <div class="item">
-                    <img src="images/taurus.jpg" alt="" class="zodiac-images" />
-                </div>
-                <div class="item">
-                    <img src="images/gemini.jpg" alt="" class="zodiac-images" />
-                </div>
-                <div class="item">
-                    <img src="images/cancer.jpg" alt="" class="zodiac-images" />
-                </div>
-                <div class="item">
-                    <img src="images/leo.jpg" alt="" class="zodiac-images" />
-                </div>
-                <div class="item">
-                    <img src="images/virgo.jpg" alt="" class="zodiac-images" />
-                </div>
-                <div class="item">
-                    <img src="images/virgo.jpg" alt="" class="zodiac-images" />
-                </div>
-                <div class="item">
-                    <img src="images/libra.jpg" alt="" class="zodiac-images" />
-                </div>
-                <div class="item">
-                    <img src="images/scorpio.jpg" alt="" class="zodiac-images" />
-                </div>
-                <div class="item">
-                    <img src="images/sagittarius.jpg" alt="" class="zodiac-images" />
-
-                </div>
-                <div class="item">
-                    <img src="images/capricorn.jpg" alt="" class="zodiac-images" />
-
-                </div>
-                <div class="item">
-                    <img src="images/pisces.jpg" alt="" class="zodiac-images" />
-                </div>
-
             </div>
         </div>
+    </main>
+    <div class="zodiac-carousel">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img src="images/aries.jpg" alt="" class="zodiac.images" />
+            </div>
+            <div class="item">
+                <img src="images/taurus.jpg" alt="" class="zodiac-images" />
+            </div>
+            <div class="item">
+                <img src="images/gemini.jpg" alt="" class="zodiac-images" />
+            </div>
+            <div class="item">
+                <img src="images/cancer.jpg" alt="" class="zodiac-images" />
+            </div>
+            <div class="item">
+                <img src="images/leo.jpg" alt="" class="zodiac-images" />
+            </div>
+            <div class="item">
+                <img src="images/virgo.jpg" alt="" class="zodiac-images" />
+            </div>
+            <div class="item">
+                <img src="images/virgo.jpg" alt="" class="zodiac-images" />
+            </div>
+            <div class="item">
+                <img src="images/libra.jpg" alt="" class="zodiac-images" />
+            </div>
+            <div class="item">
+                <img src="images/scorpio.jpg" alt="" class="zodiac-images" />
+            </div>
+            <div class="item">
+                <img src="images/sagittarius.jpg" alt="" class="zodiac-images" />
+            </div>
+            <div class="item">
+                <img src="images/capricorn.jpg" alt="" class="zodiac-images" />
+            </div>
+            <div class="item">
+                <img src="images/pisces.jpg" alt="" class="zodiac-images" />
+            </div>
+        </div>
+    </div>
 
-        <!--This script must be incorporate to the html page so it allows to use icons using just a reference inside a tag. This js file is hosted in the cloud not in the repository-->
-        <!--Js file better be put at the bottom of the page because it's loaded in sequence and if the file is on top there might be a conflict-->
-        <script src="https://kit.fontawesome.com/954d11e06f.js" crossorigin="anonymous"></script>
-        <script src="js/owl/jquery.min.js"></script>
-        <script src="js/owl/owl.carousel.min.js"></script>
-        <script src="js/owl/setup.js"></script>
+    <!--This script must be incorporate to the html page so it allows to use icons using just a reference inside a tag. This js file is hosted in the cloud not in the repository-->
+    <!--Js file better be put at the bottom of the page because it's loaded in sequence and if the file is on top there might be a conflict-->
+    <script src="https://kit.fontawesome.com/954d11e06f.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
 </body>
 
 </html>

@@ -98,7 +98,7 @@ header nav a:hover {
     margin-right: 8px;
 }
 
-a {
+.button a {
     text-decoration: none;
     transition: .3s ease all;
     color: var(--white);
@@ -106,7 +106,7 @@ a {
     margin-right: 15px;
 }
 
-a:hover {
+.button a:hover {
     color: var(--black);
 }
 
